@@ -28,11 +28,25 @@ div.site {
 	border-radius:260px;
 	width:300px;
 	height:300px;
-	overflow:hidden;
+	overflow:hidden !important;
+	margin:30px auto;
+}
+
+#yourls {
+	float:left;
+	background:red;
+}
+
+div.site a {
+	border-radius:260px;
+	display:block;
+	width:300px;
+	height:300px;
+	text-decoration:none;
+	text-indent:-999px;
 }
 
 #ozh {
-	margin:30px auto;
 	background:url( 'http://ozh.org/ozh.jpg' ) 40% 30% no-repeat;
 }
 
