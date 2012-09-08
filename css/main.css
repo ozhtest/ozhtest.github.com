@@ -2,6 +2,7 @@ body {
 	font-family:Verdana;
 	padding:0;
 	margin:0;
+	overflow:hidden;
 }
 
 h1 {
@@ -32,13 +33,18 @@ div.site {
 
 #ozh {
 	margin:30px auto;
+	background:url( 'http://ozh.org/ozh.jpg' ) 40% 30% no-repeat;
+}
+
+#ozh img {
+	display:none;
 }
 
 footer {
 	position:absolute;
 	bottom:0px;
 	height:60px;
-	background:#99a;
+	background:#19a;
 	color:white;
 	width:100%;
 	padding:10px;
