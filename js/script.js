@@ -6,7 +6,7 @@ $(document).ready(function(){
 });
 
 function go() {
-	
+	shrink( $('#yourls') );
 	shrink( $('#ozh') );
 }
 
